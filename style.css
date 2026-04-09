@@ -22,3 +22,14 @@ background-image: url('background.avif');
     left: 10%;
     width: 80%;
 }
+@media (max-width: 768px) {
+    #player {
+        position: fixed;
+        bottom: 10px;      /* небольшой отступ снизу, чтобы не уходил за экран */
+        left: 5%;          /* чуть меньше отступы по бокам */
+        width: 90%;        /* ширина 90% */
+        right: auto;
+        /* дополнительные страховки */
+        margin: 0 auto;
+        display: block;
+    }
