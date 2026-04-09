@@ -1,5 +1,6 @@
 body {margin:0;
-background-image: url('background.avif')}
+background-image: url('background.avif');
+     padding-bottom:70px}
 .hd {background-color:#f7e481;}
 .tracklist li {
   cursor: pointer;
