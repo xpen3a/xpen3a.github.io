@@ -3,50 +3,27 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Untitled</title>
+    <title>Player</title>
     <link rel="stylesheet" href="./style.css">
 
   </head>
     
   <body>
-  <html>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body>
-    <img scr='https://avatars.mds.yandex.net/i?id=805d2338b22745129a8366d4eaf0ece4c3f5d5bd-5236271-images-thumbs&n=13'>
-    <div class="main">
-      <div class="notmain">
-        <div class="block">
-          <p>Something</p>
-        </div>
-        <br>
-        <div class="block">
-          <p>something x2</p>
-        </div>
-      </div>
-      <div class="center">
-        <div class="block">
-          <n1>こんにちは世界</h1>
-          <p>Main info</p>
-          <br>
-        </div>
-      </div>
-      <div class="notmain">
-        <div class="block">
-          <!-- 1. Сам плеер -->
-<audio id="myAudio" src="Travis Scott - Til Further Notice.mp3" controls></audio>
-
-<!-- 2. Блок для отображения информации о треке -->
-<div class="track-info">
-  <img id="trackArt" src="images/my-song-cover.jpg" alt="Обложка трека">
-  <div>
-    <div id="trackTitle">Название песни</div>
-    <div id="trackArtist">Имя исполнителя</div>
+  <div class="hd">
+    <img src="LOGO.png">
   </div>
-</div>
-        </div>
-      </div>
-    </div>
-    
+  <audio id="player" controls></audio>
+
+<!-- Список треков -->
+  <ul class="tracklist">
+    <li data-src="music/track1.mp3">KM - Aarne & Toxi$</li>
+    <li data-src="music/track2.mp3">donor - Baby Cute & NO1R</li>
+    <li data-src="music/track3.mp3">BIIG - SALUKI</li>
+  </ul>
+</body>
+    <script  src="./script.js"></script>
+
   </body>
   
 </html>

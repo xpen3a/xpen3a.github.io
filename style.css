@@ -1,24 +1,25 @@
-.main {display: flex;
-gap: 3%;
-align-items: stretch}
-.block {background:#D3D3D3;
-border: 2px solid red;
-padding: 20px;
-gap: 26px;
-border-radius: 8px;
-margin-left: 3%;
-margin-right: 3%}
-.notmain {flex: 1}
-.center {flex: 3}
-img {
-  max-width: 100%;
-  height: auto;
+body {margin:0;
+background-image: url('background.avif')}
+.hd {background-color:#f7e481;}
+.tracklist li {
+  cursor: pointer;
+  padding: 8px;
+  margin: 4px 0;
+  background: #f0f0f0;
+  border-radius: 2px;
+  transition: 0.2s;
+  list-style-type: none;
+  margin-left: 15%;
+  margin-right: 20%
 }
-@media (max-width: 768px) {
-  .main {
-    flex-direction: column;
-    gap: 20px}
-  .center {order: 1}
-  .notmain {order: 2}
-  .center, .notmain {flex:none;
-  widht:100%}
+.tracklist li:hover {
+  background: #ddd;
+}
+#player {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 80%;
+  left:10%;
+  z-index: 1000;   
+}
